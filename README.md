@@ -2,7 +2,7 @@
 
 This script has been adapted from the original version, written by Konlavach Mengsuwan and available at https://github.com/KonlavachMengsuwan/LST_Landsat8_L1.
 
-The script calculates Land Surface Temperature (LST) from Landsat 8/Landsat9 images, including automatic cloud masking based on the QA_PIXEL band.
+The script calculates Land Surface Temperature (LST) from Landsat 8/Landsat9, including automatic cloud masking based on the QA_PIXEL band.
 
 Make sure all required packages are installed before running the script.
 
