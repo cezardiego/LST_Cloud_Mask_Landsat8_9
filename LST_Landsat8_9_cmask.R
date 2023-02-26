@@ -36,7 +36,7 @@ for (i in seq_along(subdirs)) {
   QA_pixel <- raster(QA_pixel_file)
   
   # Mask and Crop to the region (need to be changed)
-  area1 = sf::read_sf("D:/Shapes/doukkala_morrocco/Doukkala_distrcts.shp")
+  area1 = sf::read_sf("D:/Shapes/your_shapefile_dir_and_name_here.shp")
   
   RED = raster::mask(RED, area1)
   RED = raster::crop(RED, area1)
