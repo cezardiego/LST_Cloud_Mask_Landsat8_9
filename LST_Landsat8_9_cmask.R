@@ -106,7 +106,7 @@ for (i in seq_along(subdirs)) {
   LST = BT / (1 + ((w * (BT / p)) * log(E)))
   LST
   
-#Exportando LST
+#Exporting LST - the .tif file name will include the date of the L8-9 overpass
   
   output_filename <- paste0("LST_", substr(MTL_filename, 18, 25), "_", ".tif")
   writeRaster(LST, output_filename, overwrite=TRUE)
