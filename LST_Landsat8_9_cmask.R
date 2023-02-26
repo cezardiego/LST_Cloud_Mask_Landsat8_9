@@ -107,6 +107,7 @@ for (i in seq_along(subdirs)) {
   LST
   
 #Exporting LST - the .tif file name will include the date of the L8-9 overpass
+#The folders names must have the following structure: LCXX_XXXX_XXXXXX_YYYYMMDD_YYYYMMDD_XX_XX
   
   output_filename <- paste0("LST_", substr(MTL_filename, 18, 25), "_", ".tif")
   writeRaster(LST, output_filename, overwrite=TRUE)
