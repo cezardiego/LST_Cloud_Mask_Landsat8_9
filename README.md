@@ -1,4 +1,6 @@
-# LST_Cloud_Mask_Landsat8_9
+LST_Cloud_Mask_Landsat8_9
+
+=== Land Surface Temperture (Landsat8-9) with cloud masking ===
 
 This script has been adapted from the original version, written by Konlavach Mengsuwan and available at https://github.com/KonlavachMengsuwan/LST_Landsat8_L1.
 
