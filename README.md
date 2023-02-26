@@ -1,4 +1,4 @@
-#LST_Cloud_Mask_Landsat8_9
+# Land Surface Temperature (Landsat8-9) with cloud masking
 
 This script has been adapted from the original version, written by Konlavach Mengsuwan and available at https://github.com/KonlavachMengsuwan/LST_Landsat8_L1.
 
@@ -10,4 +10,4 @@ Main improvements compared to the previously mentioned version:
 
 1. Includes loop to run script on all subdirectories within a root dir, allowing to get LST for multiple dates/images;
 
-2. Includes automatic removal of clouds and cloud shadows based on QA_PIXEL band. Note that you can customize this field. For more information, check the product's user guide, available at https://www.usgs.gov/landsat-missions/landsat-collection-2-level-1-data.
+2. Includes automatic removal of clouds and cloud shadows based on QA_PIXEL band. Note that you can customize this field. For more information, check the product's user guide, available at https://www.usgs.gov/landsat-missions/landsat-collection-2-level-1-data
