@@ -51,7 +51,11 @@ for (i in seq_along(subdirs)) {
   QA_pixel = raster::crop(QA_pixel, area1)
   
   # Create cloud mask (based on QA_PIXEL band)
-  cloud_mask <- ((QA_pixel == 21826) | (QA_pixel == 21890) | (QA_pixel == 22280) | (QA_pixel == 55052) | (QA_pixel == 56856) | (QA_pixel == 56984) | (QA_pixel == 57240)| (QA_pixel == 23888) | (QA_pixel == 24088) | (QA_pixel == 24216) | (QA_pixel == 24344) | (QA_pixel == 24472) | (QA_pixel == 54596) | (QA_pixel == 54852) | (QA_pixel == 55052))
+  cloud_mask <- ((QA_pixel == 21826) | (QA_pixel == 21890) | (QA_pixel == 22280) | 
+                (QA_pixel == 55052) | (QA_pixel == 56856) | (QA_pixel == 56984) |
+                (QA_pixel == 57240)| (QA_pixel == 23888) | (QA_pixel == 24088) |
+                (QA_pixel == 24216) | (QA_pixel == 24344) | (QA_pixel == 24472) |
+                (QA_pixel == 54596) | (QA_pixel == 54852) | (QA_pixel == 55052))
   
   # Apply cloud mask to all bands
   RED[cloud_mask] <- NA
